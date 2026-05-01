@@ -66,5 +66,5 @@ All admin setters call `_accrueFees()` first so param changes apply forward-only
 - Fee-on-transfer and rebasing tokens are rejected via pre/post balance deltas.
 - Only the owner can whitelist assets or report yield. Owner is assumed honest.
 - `reportYield` does not accept negative yield; loss handling is explicitly out of scope.
-- `cancelWithdraw` is disallowed after unlock to close the management-fee-avoidance loop from request→wait→cancel cycles..
+- `cancelWithdraw` is disallowed after unlock to close the management-fee-avoidance loop from request→wait→cancel cycles.
 
